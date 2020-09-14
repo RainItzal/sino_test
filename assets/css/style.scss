@@ -128,7 +128,7 @@ body {
 	}
 }
 
-.page-header {
+#header {
 	background-image: url("images/colosseum-art.jpg");
 	background-color: #74b2ed;
 	background-repeat: repeat;
@@ -136,7 +136,7 @@ body {
 	background-position: bottom;
 	min-width: 100%;
 }
-.page-header h1 {
+#header h1 {
 	text-align: center;
 	text-shadow: 3px 3px 7px #000;
 	color: white;
@@ -148,7 +148,7 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 }
-.page-header h2 {
+#header h2 {
 	text-align: center;
 	text-shadow: 3px 3px 7px #000;
 	color: white;
@@ -159,7 +159,7 @@ body {
 	box-sizing: border-box;
 	width: 100%;
 }
-.page-header hr {
+#header hr {
 	color: #ddd;
 	background-color: #000000;
 	height: 1px;
@@ -167,14 +167,14 @@ body {
 	border: 0;
 	overflow: visible;
 }
-.page-header a {
+#header a {
 	color: #ffffff;
 	text-decoration: none;
 }
-.page-header a:hover {
+#header a:hover {
 	color: #ac0404;
 }
-.page-header img {
+#header img {
 	margin: auto;
 	position: fixed;
 	width: 100%;
